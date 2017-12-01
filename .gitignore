@@ -1,0 +1,11 @@
+.idea*
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+.grunt
+node_modules
+.npm
+.node_repl_history

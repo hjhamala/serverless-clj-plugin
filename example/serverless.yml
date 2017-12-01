@@ -1,0 +1,22 @@
+service: example
+
+provider:
+  name: aws
+  runtime: java8
+
+custom:
+  test: true
+
+package:
+  artifact: target/example.jar
+
+functions:
+  echo:
+    handler: fi.hjhamala.Example
+    events:
+      - http:
+          path: echo
+          method: get
+
+plugins:
+  - serverless-clj-plugin

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "serverless-clj-plugin": "0.2.0"
+  }
+}
