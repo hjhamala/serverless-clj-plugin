@@ -9,3 +9,8 @@ pids
 node_modules
 .npm
 .node_repl_history
+example/.lein-failures
+example/.serverless/
+example/package-lock.json
+example/target/
+

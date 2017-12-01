@@ -8,9 +8,8 @@ const exec   = bluebird.promisify(require('child_process').exec,
 
 function cljsLambdaBuild(serverless, opts) {
     let cmd;
-    serverless.cli.log(serverless.service.custom.test);
     let test =  (serverless.service.custom.test  ? " do test, uberjar" : "uberjar");
-    cmd = (`lein update-in :uberjar-name str "${serverless.service.service}.jar" -- ` + test)
+    cmd = (`lein update-in :uberjar-name str "${serverless.service.service}.jar" -- ` + test);
     serverless.cli.log(`Executing "${cmd}"`);
     return exec(cmd);
 }

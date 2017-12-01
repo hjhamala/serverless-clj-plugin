@@ -3,11 +3,11 @@
   "description": "A Serverless plugin for deploying Clojure functions",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nervous-systems/serverless-cljs-plugin.git"
+    "url": "git+https://github.com/hjhamala/serverless-clj-plugin.git"
   },
-  "author": "Moe Aboulkheir",
+  "author": "Heikki Hämäläinen",
   "license": "Unlicense",
-  "version": "0.2.1",
+  "version": "0.1.1",
   "engines": {
     "node": ">=4.0"
   },
@@ -15,14 +15,12 @@
     "LICENSE",
     "README.md",
     "package.json",
-    "serverless-cljs-plugin",
     "index.js"
   ],
   "keywords": [
     "serverless",
     "plugin",
     "clojure",
-    "clojurescript",
     "aws",
     "lambda",
     "amazon",
@@ -31,10 +29,6 @@
   ],
   "dependencies": {
     "bluebird": "3.4.6",
-    "jszip": "3.1.4",
-    "lodash": "4.17.2",
-    "minimatch": "3.0.4",
-    "mkdirp": "0.5.1",
-    "mustache": "2.3.0"
+    "lodash": "4.17.2"
   }
 }
