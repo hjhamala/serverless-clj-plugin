@@ -1,7 +1,5 @@
 # serverless-clj-plugin
 
-[![npm version](https://badge.fury.io/js/serverless-cljs-plugin.svg)](https://badge.fury.io/js/serverless-cljs-plugin)
-
 A [Serverless](https://github.com/serverless/serverless) plugin which
 uses Leiningen to package services
 written in [Clojure].
